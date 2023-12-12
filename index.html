@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale="1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+  <!--****************** PART1-TITLE ********************-->
+<h1 id="title">SURVEY QUESTIONS CONCERNING KONGO LANGUAGE PREFERENCE</h1>
+
+<!--****************** PART2- PARAGRAPH ********************-->
+<p id="description"> We are interested in learning more about people's attitudes toward the languages that they most enjoyed speaking. <br>So, kindly complete the application form above. With gratitude.<p>
+
+       <!--****************** PART3-FORM ********************-->
+
+ <form id="survey-form">
+<label id="name-label">Name:
+  <input id="name" type="text" placeholder="Olayemi" required ></input><br>
+</label><br>
+
+<label id="email-label">email:<input id="email" type="email" placeholder="olayemi@gmail.com" required></input><br>
+</label><br>
+
+<label id="number-label">number: <input id="number" type="number" min="1"  max="7" placeholder="1"><br></input>
+</label><br>
+
+
+
+<!-- ****************** PART4-SELECT YOUR LANGUAGES *********************-->
+<section>
+  <label for="dropdown">Select the language that you most enjoy speaking :
+
+  </label>
+<select name="course" id="dropdown">
+  <option value="">This is the languages list:</option>
+  <option value="Swahili">Swahili</option>
+  <option value="Lingala">Lingala</option>
+  <option value="Kituba">Kituba</option>
+  <option value="Kiluba">Kiluba</option>
+</select>
+</section>
+
+<!-- ************* PART5 - SELECT YOUR SEX - RADIO BUTTON.****************-->
+<section>
+  <fieldset>
+    <legend>Select your sex</legend>
+      <div>
+        <input type="radio" name="gender" value="Male">
+        <label for="gender">Male</label> <br>
+        <input type="radio" name="gender" value="Female">
+        <label for="gender">Female</label>
+      </div>
+  
+  </fieldset>
+</section>
+
+<!--***************** PART 6- WHY THAT LANGUAGES? - CHECKBOXES ****************-->
+<section class="design-section">
+  <fieldset >
+    <legend > As opposed to other languages, why did you chose that one?</legend>
+    <div>
+      <input type="checkbox" id="Easy to pick up" name="Easy to pick up" value="Easy to pick up" checked />
+      <label for="1st semester">Easy to pick up</label>
+    </div>
+    <div>
+      <input type="checkbox" id="I adore it" name="I adore it" value="I adore it" checked/>
+      <label for="2em semester">I adore it.</label>
+    </div>
+  <div>
+  <input type="checkbox" id="A personal relationship with it" name="A personal relationship with it" value="A personal relationship with it" checked/>
+  <label for="2em semester">A personal relationship with it</label>
+  </div>
+  <div>
+  <input type="checkbox" id="Career Possibilities" name="Career Possibilities" value="Career Possibilities" checked/>
+  <label for="Career Possibilities">Career Possibilities</label>
+  </div>
+  <div>
+  <input type="checkbox" id="Social Motives" name="Social Motives" value="Social Motives" checked/>
+  <label for="Social Motives">Social Motives</label>
+  </div>  
+  </fieldset>
+</section>
+
+<!--******************* PART 7 - TEXT AREA ****************************************-->
+<section>
+  <textarea id="story" name="story" rows="2.5" cols="25">
+   Feedback...
+  </textarea>
+</section>
+
+<!--********************* PART 8 - SUBMIT BUTTON *************************************-->
+<section>
+  <button id="submit" class="design-button">submit</button>
+</section>
+
+
+  </form>
+  </body>
+  </html>

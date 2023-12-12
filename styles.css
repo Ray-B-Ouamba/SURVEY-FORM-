@@ -1,0 +1,123 @@
+
+
+body{
+  background-color:rgb(27, 27, 56);
+  color:white;
+  
+ 
+
+}
+/****************** PART1-TITLE ********************/
+#title{
+ 
+  color: aqua;
+  background-color: rgb(63, 63, 134);
+  padding: 1%;
+  margin: 2.5% 5% 0 5%;
+  text-align: center;
+ font-size: 25px;
+}
+
+/****************** PART2- PARAGRAPH ********************/
+#description{
+  font-size: 140%;
+  line-height: 1.6;
+  padding-top: 2.5%;
+  text-align: center;
+  padding: 20px 0 50px 0;
+
+}
+
+/********************** PART3-FORM ********************************/
+
+form > label{
+  font-size: 120%;
+ 
+}
+form > label > input{
+  font-family: Courier New;
+  padding: 10px 25px 10px 25px;
+  margin-left: 10px;
+  background-color: rgb(50, 53, 135);
+  font-family: Courier New;
+  margin: 1%;
+}
+
+::placeholder{
+  color: aqua;
+  font-weight: bold;
+}
+
+#survey-form{
+  padding-left: 6%;
+}
+
+/******************* PART4- NAME-EMAIL-NUMBER ********************/
+
+section > label{
+  font-size: 140%;
+  padding-left: 6%;
+}
+label + select{
+  font-family: Courier New;
+  padding: 10px 25px 10px 25px;
+  margin-left: 10px;
+  color:aqua;
+  background-color: rgb(50, 53, 135);
+  font-size: 150%;
+  font-weight: bold;
+}
+
+section{
+  padding-top: 50px;
+ 
+}
+
+/********************* PART5 - SELECT YOUR SEX - RADIO BUTTON.*************/
+fieldset{
+  padding: 1%;
+  margin: 0 5%;
+  font-size: 140%;
+  
+}
+input + label{
+  color: aqua;
+}
+
+
+
+ 
+  
+  /************ PART 6- WHY THAT LANGUAGES? - CHECKBOXES ****************/
+ 
+
+  /***************** PART 7 - TEXT AREA *********************/
+  #story{
+    font-family: Courier New;
+    font-weight: bold;
+    background-color: rgb(50, 53, 135);
+    color: aqua;
+    font-size: 160%;
+   text-align: center;
+   margin-left: 500px;
+   padding: 2% 170px 10px 170px;
+
+  }
+
+  /************************ PART 8 - SUBMIT BUTTON ******************/
+  #submit{
+    font-family: Courier New;
+    font-weight: bold;
+    background-color: rgb(50, 53, 135);
+    color: aqua;
+    font-size: 140%;
+    margin-left: 660px;
+    padding: 10px 170px 10px 170px;
+  }
+
+  
+ 
+ 
+
+
+
